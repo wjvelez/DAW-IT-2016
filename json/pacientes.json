@@ -4,21 +4,25 @@
     "Apellidos":"Piguave", 
     "Cedula":"09023451234", 
     "Email":"jpiguav@algo.com", 
-    "Direccion":"algun lugar", 
+    "Direccion":"algun lugar",
+    "Distrito":"Tarqui",
+    "Ciudad":"Guayaquil",
     "Telefonos":[
         "0991231234",
         "042-123456"
     ]},
     
     {"Usuario":"paciente",
-     "Nombres":"Juan2", 
-     "Apellidos":"Piguave2", 
-     "Cedula":"09023451245", 
-     "Email":"jpiguav2@algo.com", 
-     "Direccion":"algun lugar2", 
-     "Telefonos":[
-         "0991231222",
-         "042-123422"
-     ]}    
+    "Nombres":"Wacho", 
+    "Apellidos":"Hernandez", 
+    "Cedula":"0912639127", 
+    "Email":"whernan@algo.com", 
+    "Direccion":"algun lugar",
+    "Distrito":"Tarqui",
+    "Ciudad":"Quito",
+    "Telefonos":[
+        "0999970035",
+        "022-123456"
+    ]}    
 
 ]
