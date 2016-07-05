@@ -1,5 +1,35 @@
-{"centrosMed":[
-    {"nombre": "Centro Medico 1", "contacto": "0905081270"},
-    {"nombre": "Centro Medico 2", "contacto": "0984579897"},
-    {"nombre": "Centro Medico 3", "contacto": "0949021375"},
-]}
+[
+    {"nombre": "Centro Medico 1", "contacto": "0905081270", "horarios":{
+        "Lunes":"08:00 - 20:00",
+        "Martes":"08:00 - 20:00",
+        "Miercoles":"08:00 - 20:00",
+        "Jueves":"08:00 - 19:30",
+        "Viernes":"08:00 - 18:30",
+        "Sabado":"9:00 - 16:00",
+        "Domingo":"10:00 - 14:30"}, "direccion": "calle1", "examenes":[
+         "sangre", "orina", "otroexamen"
+        ]
+    },
+    {"nombre": "Centro Medico 2", "contacto": "0984579897", "horarios":{
+        "Lunes":"08:00 - 20:00",
+        "Martes":"08:00 - 20:00",
+        "Miercoles":"08:00 - 20:00",
+        "Jueves":"08:00 - 19:30",
+        "Viernes":"08:00 - 18:30",
+        "Sabado":"9:00 - 16:00",
+        "Domingo":"10:00 - 14:30"}, "direccion": "calle1", "examenes":[
+            "sangre", "orina", "otroexamen"
+        ]
+    },
+    {"nombre": "Centro Medico 3", "contacto": "0949021375", "horarios":{
+        "Lunes":"08:00 - 20:00",
+        "Martes":"08:00 - 20:00",
+        "Miercoles":"08:00 - 20:00",
+        "Jueves":"08:00 - 19:30",
+        "Viernes":"08:00 - 18:30",
+        "Sabado":"9:00 - 16:00",
+        "Domingo":"10:00 - 14:30"}, "direccion": "calle1", "examenes":[
+            "sangre", "orina", "otroexamen"
+        ]
+    },
+]
