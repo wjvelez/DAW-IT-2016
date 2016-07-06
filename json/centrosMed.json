@@ -20,11 +20,16 @@
         "Descripcion":[
             "Examenes Generales",
             "Tomografia",
-            "Resonancia Magnetica",
-            "Perfil renal: Nitrógeno de urea, Creatinina, Ácido úrico, Proteína total, albúmina/globulina, calcio, glucosa",
-            "Perfil triode: TSH, T3, T4"
+            "Resonancia Magnetica"
         ],
-        "portada": "../Imagenes/carrusel/0001.jpg"
+        "portada": "../Imagenes/miniatura.jpg",
+        "foto1": "../Imagenes/carrusel/cm1/0001.jpg",
+        "foto2": "../Imagenes/carrusel/cm1/0002.jpg",
+        "foto3": "../Imagenes/carrusel/cm1/0003.jpg",
+        "Coordenadas":{
+            "Latitud":"-0.261168",
+            "Longitud":"-78.547066"
+        }
     },
     {
         "nombre": "Centro Medico 2",
@@ -39,7 +44,7 @@
             "Sabado: 9:00 - 16:00",
             "Domingo: 10:00 - 14:30"
         ],
-        "direccion": "calle1",
+        "direccion": "calle2",
         "Coordenadas":{
             "Latitud":"-0.261168",
             "Longitud":"-78.547066"
@@ -47,11 +52,16 @@
         "Descripcion":[
             "Examenes Generales",
             "Tomografia",
-            "Resonancia Magnetica",
-            "Perfil renal: Nitrógeno de urea, Creatinina, Ácido úrico, Proteína total, albúmina/globulina, calcio, glucosa",
-            "Perfil triode: TSH, T3, T4"
+            "Resonancia Magnetica"
         ],
-        "portada": "../Imagenes/carrusel/0001.jpg"
+        "portada": "../Imagenes/miniatura.jpg",
+        "foto1": "../Imagenes/carrusel/cm1/0001.jpg",
+        "foto2": "../Imagenes/carrusel/cm1/0002.jpg",
+        "foto3": "../Imagenes/carrusel/cm1/0003.jpg",
+        "Coordenadas":{
+            "Latitud":"-0.261168",
+            "Longitud":"-78.547066"
+        }
     },
     {
         "nombre": "Centro Medico 3",
@@ -66,7 +76,7 @@
             "Sabado: 9:00 - 16:00",
             "Domingo: 10:00 - 14:30"
         ],
-        "direccion": "calle1",
+        "direccion": "calle3",
         "Coordenadas":{
             "Latitud":"-0.261168",
             "Longitud":"-78.547066"
@@ -74,10 +84,15 @@
         "Descripcion":[
             "Examenes Generales",
             "Tomografia",
-            "Resonancia Magnetica",
-            "Perfil renal: Nitrógeno de urea, Creatinina, Ácido úrico, Proteína total, albúmina/globulina, calcio, glucosa",
-            "Perfil triode: TSH, T3, T4"
+            "Resonancia Magnetica"
         ],
-        "portada": "../Imagenes/carrusel/0001.jpg"
+        "portada": "../Imagenes/miniatura.jpg",
+        "foto1": "../Imagenes/carrusel/cm1/0001.jpg",
+        "foto2": "../Imagenes/carrusel/cm1/0002.jpg",
+        "foto3": "../Imagenes/carrusel/cm1/0003.jpg",
+        "Coordenadas":{
+            "Latitud":"-0.261168",
+            "Longitud":"-78.547066"
+        }
     }
 ]

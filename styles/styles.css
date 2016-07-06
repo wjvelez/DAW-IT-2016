@@ -6,9 +6,9 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    padding-top: 70px;
+    padding-top: 45px;
     margin-bottom: 60px;
-    background: url("../Imagenes/portada.jpg") no-repeat center center;
+    background: url("../Imagenes/fondo.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 #bienvenida{
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .container{
@@ -27,6 +27,7 @@ body {
 }
 
 .principal{
+    margin-top: 10%;
     max-width: 100%;
     background: rgba(31, 29, 29, 0.8);
     padding: 30px 20px 30px 20px;
@@ -91,3 +92,67 @@ img{
     width: 100%;
     height: 100%;
 }
+
+
+
+
+
+/* para la seccion de centros medicos */
+.centros-medicos{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    -webkit-perspective: 700;
+    margin-bottom: 20px;
+    
+}
+
+.centro-med{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1.5s;
+}
+
+.centro-med:hover {
+    transform: rotateY(180deg);
+}
+
+.lado{
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.frente{
+    background: crimson;
+}
+
+
+.atras{
+    background: #f0f0f0;
+    transform: rotateY(180deg);
+}
+
+.frente img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
