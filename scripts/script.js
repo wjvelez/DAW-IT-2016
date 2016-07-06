@@ -27,7 +27,7 @@ function cargarCentrosMed(){
             var ladoFrente = $('<div class="lado frente"></div>');
             var img = $('<img src="'+urlImg+'" alt="imagen">');
             var ladoAtras = $('<div class="text-center lado atras panel panel-default"></div>');
-            var ladoAtrasHead =$('<div class="panel-heading"></div>');
+            var ladoAtrasHead =$('<div class="panel-heading tarjeta-titulo"></div>');
             var ladoAtrasNombre = $('<h4 class="text-center panel-title></h4>');
             var ladoAtrasBody =$('<div class="panel-body text-center"></div>');
             var ladoAtrasFooter =$('<div class="panel-footer"></div>');
@@ -85,9 +85,9 @@ function cargarCentrosMed(){
             
             var descripcion =$('<div class="col-md-6"></div>');
             var inforPanel =$('<div class="panel panel-default"></div>');
-            var inforHeading =$('<div class="panel-heading"></div>');
+            var inforHeading =$('<div class="panel-heading text-center"></div>');
             var inforTitle = $('<h3 class="panel-title">Informaci&oacute;n</h3>');
-            var inforBody = $('<div class="panel-body"></div>');
+            var inforBody = $('<div class="panel-body text-center"></div>');
             var infoExamenes = $('<span style="font-weight:bold;">Ex&aacute;menes: </span><br/>');
             var infoDireccion = $('<span style="font-weight:bold;">Direcci&oacute;n: </span><span>'+direc+'</span><br/>');
             var infoContacto = $('<span style="font-weight:bold;">Tel&eacute;fono: </span><span>'+contac+'</span><br/>');
@@ -151,6 +151,13 @@ function cargarCentrosMed(){
             fila1.append(carrusel);
             
             */
+            
+            var galeria =$('<div class="panel panel-default"></div>');
+            var galeriaHeading =$('<div class="panel-heading text-center"></div>');
+            var galeriaTitle = $('<h3 class="panel-title">Informaci&oacute;n</h3>');
+            var galeriaBody = $('<div class="panel-body text-center"></div>');
+            
+            
             var colSlider =$('<div class="col-md-6"></div>');
             var carousel = $('<div id="carousel-centro'+(i+1)+'" class="carousel slide" data-ride="carousel"></div>');
             var carouselIndicators = $('<ol class="carousel-indicators"></ol>');
@@ -167,8 +174,12 @@ function cargarCentrosMed(){
             var carouselLeftControl = $('<a class="left carousel-control" href="#carousel-centro'+(i+1)+'" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a>');
             var carouselRightControl = $('<a class="right carousel-control" href="#carousel-centro'+(i+1)+'" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>');
 
-            // Ordeno los elementos del carousel
-            colSlider.append(carousel);
+            galeria.append(galeriaHeading);
+            galeria.append(galeriaBody);
+            galeriaHeading.append('<h3 class="text-center panel-title">Galer&iacute;a</h3>');
+            galeriaBody.append(carousel);
+            
+            colSlider.append(galeria);
             carousel.append(carouselIndicators);
             carousel.append(carouselInner);
             carousel.append(carouselLeftControl);
@@ -185,21 +196,12 @@ function cargarCentrosMed(){
             
             fila1.append(colSlider);
             
-            
-            // Mapa
-            var mapaColumn = $('<div class="col-md-6"></div>');
-            var mapaPanel = $('<div class="panel panel-default"></div>');
-            var mapaHeading = $('<div class="panel-heading"></div>');
-            var mapaTitle = $('<h3 class="panel-title">Mapa</h3>');
-            var mapaBody = $('<div class="panel-body"></div>');
-            var mapaCanvas = $('<div id="map_canvas'+(i+1)+'" class="mapCanvas"></div>');
-
 
             // Mapa
-            var mapaColumn = $('<div class="fila"></div>');
+            var mapaColumn = $('<div class="col-xs-12"></div>');
             var mapaPanel = $('<div class="panel panel-default"></div>');
             var mapaHeading = $('<div class="panel-heading"></div>');
-            var mapaTitle = $('<h3 class="text-center panel-title">Mapa de '+nombre+'</h3>');
+            var mapaTitle = $('<h3 class="text-center panel-title">Mapa</h3>');
             var mapaBody = $('<div class="panel-body"></div>');
             var mapa =$('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7974.028468568863!2d-79.96830796821938!3d-2.1482369294487267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2s!4v1467777281521" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>');
 
